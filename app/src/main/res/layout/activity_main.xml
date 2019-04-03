@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_alipay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否安装支付宝：**"
+        android:textColor="#FF0000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_alipay_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="支付宝版本：**"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="aliPayScan"
+        android:padding="15dp"
+        android:text="打开支付宝扫一扫" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="aliPayCode"
+        android:padding="15dp"
+        android:text="打开支付宝付款码" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAliPayment"
+        android:padding="15dp"
+        android:text="打开支付宝付款页面(带收款人信息)" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAliPayTransfer"
+        android:padding="15dp"
+        android:text="打开支付宝转账页面" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAliPayCollectMoney"
+        android:padding="15dp"
+        android:text="打开支付宝收钱码页面" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openAliPayRedPacket"
+        android:padding="15dp"
+        android:text="一键领取支付宝红包（已失效）" />
+
+</LinearLayout>
