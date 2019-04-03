@@ -40,10 +40,6 @@ dependencies {
 2. **带收款人信息到付款页面，需要收款人收款码id，获取方式通过微信扫收款人收款码获取，如下图红色部分**
 ![](https://github.com/lidiwo/AliPaySDK_Personal/blob/master/image_01.jpg?raw=true)
 
-
-
-
-
 #### 四、问题反馈
 
  如果发现有使用问题，可以给我发邮件kolan9527@126.com
