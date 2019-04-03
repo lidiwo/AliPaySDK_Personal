@@ -37,8 +37,8 @@ dependencies {
 
 #### 三、注意事项
 1. **在跳转支付宝之前最好先判断是否安装支付宝**
-2. **带收款人信息到付款页面，需要收款人付款码id，获取方式通过微信收款人收款码获取，如下图红色部分**
-![](https://github.com/lidiwo/RadarView/blob/master/image_01.jpg?raw=true)
+2. **带收款人信息到付款页面，需要收款人收款码id，获取方式通过微信扫收款人收款码获取，如下图红色部分**
+![](https://github.com/lidiwo/AliPaySDK_Personal/blob/master/image_01.jpg?raw=true)
 
 
 
